@@ -24,19 +24,9 @@ const infoDescricao = async (pokemom) => {
     return descricaoPokemon
 }
 
-const geralPokemon = async () => {
-    const info = await fetch('https://pokeapi.co/api/v2/pokemon/')
-    const geralPokemon = await info.json()
-    const mais = await fetch(geralPokemon.next)
-    const maisPokemon = await mais.json()
-
-    return maisPokemon
-}
-
 const buscaPokemon = async (pokemon) => {
     const dados = await infoPokemon(pokemon)
     const descricao = await infoDescricao(pokemon)
-    const p = await geralPokemon()
 
     nome_pokemon.innerHTML = dados.name
     id_pokemon.innerHTML = dados.id
