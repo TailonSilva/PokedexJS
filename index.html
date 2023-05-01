@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <link rel="shortcut icon" href="img/favicon.png" type="image/png">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pokedex</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body onload="inicio()">
+<main>
+
+    <div id="boxPesquisar" class="boxPesquisar">
+        <input type="text" name="pokemon" id="pokemon">
+        <button id="pesquisar"><img src="img/pesquisa.png" alt="Pesquisar"></button>
+    </div>
+    <div id="box">
+        <div id="boxImgPokemon">
+            <div id="circulo">
+                <span id="id_pokemon"></span>
+            </div>
+            <img id="img_pokemon" src="" alt="pokemon">
+        </div>
+        <div id="boxInfoPokemon">
+            <span id="nome_pokemon"></span>
+            <p>
+                <span class="infoPokesTexto" id="hp">hp</span>
+                <span class="infoPokesDados" id="hpDados">0</span>
+            </p>
+
+            <p>
+                <span class="infoPokesTexto" id="ataque">ataque</span>
+                <span class="infoPokesDados" id="ataqueDados">0</span>
+            </p>
+
+            <p>
+                <span class="infoPokesTexto" id="defesa">defesa</span>
+                <span class="infoPokesDados" id="defesaDados">0</span>
+            </p>
+
+            <p>
+                <span class="infoPokesTexto" id="Velocidade">velocidade</span>
+                <span class="infoPokesDados" id="velocidadeDados">0</span>
+            </p>
+            
+            
+        </div>
+        <div id="boxTipoPokemon">
+            <span id="titulo-tipo">TYPE:</span>
+            <span id="tipo_poke"></span>
+        </div>
+    </div>
+
+</main>
+
+    <script src="script.js"></script>
+</body>
+</html>

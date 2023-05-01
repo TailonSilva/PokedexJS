@@ -1,0 +1,151 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+img {
+    width: 90px;
+
+}
+
+main {
+    margin: 15px;
+    width: 200px;
+}
+
+#boxPesquisar {
+    display: flex;
+    gap: 10px;
+    margin-bottom: 20px;
+}
+
+#pokemon {
+    width: 170px;
+    height: 20px;
+}
+
+#pesquisar {
+    width: 20px;
+    height: 20px;
+}
+
+#pesquisar img {
+    width: 16px;
+    height: 16px;
+}
+
+#box {
+    width: 200px;
+}
+
+#boxImgPokemon {
+    width: 200px;
+    height: 100px;
+    position: relative;
+}
+
+#circulo {
+    width: 200px;
+    height: 70px;
+    background-color: white;
+    border-bottom-left-radius: 100%;
+    border-bottom-right-radius: 100%;
+    position: absolute;
+    box-shadow: 0 3px 7px white;
+}
+
+#id_pokemon {
+    position: absolute;
+    right: -5%;
+    top: -10%;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: 900;
+    width: 30px;
+    height: 30px;
+    background-color: rgb(0, 0, 0);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    color: #ccc;
+
+}
+
+#img_pokemon {
+    position: absolute;
+    bottom: 0;
+    left: 27.5%;
+}
+
+#boxInfoPokemon {
+    width: 200px;
+    display: flex;
+    flex-direction: column;
+    padding: 15px 0;
+}
+
+#boxInfoPokemon p {
+    display: flex;
+    width: 200px;
+    justify-content: space-between;
+    padding: 3px 10px;
+}
+
+#nome_pokemon {
+    margin: 0 auto;
+    font-size: xx-large;
+    text-transform: capitalize;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.infoPokesTexto, .infoPokesDados {
+    text-transform: uppercase;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+
+}
+
+.infoPokesTexto {}
+
+.infoPokesDados {}
+
+#hpDados {}
+
+#ataqueDados {}
+
+#defesaDados {}
+
+#velocidadeDados {}
+
+
+#boxTipoPokemon {
+    width: 200px;
+    height: 50px;
+    background-color: white;
+    display: flex;
+    position: relative;
+}
+
+#titulo-tipo {
+    position: absolute;
+    top: -10px;
+    left: 10px;
+    padding: 5px;
+    background-color: black;
+    color: #fff;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-weight: bold;
+    font-size: 12px;
+}
+
+#tipo_poke {
+    width: 200px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-transform: capitalize;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-weight: bold;
+    font-size: 20px;
+
+}
